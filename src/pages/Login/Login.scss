@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.googlebutton span{
+    margin-left: -35px;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner{
+    background-color: #2f6a81;
+    border-color: #2f6a81;
+}
+
+.ant-checkbox-checked::after{
+    border: none !important;
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner, .ant-checkbox:hover .ant-checkbox-inner {
+    background-color: #2f6a81 !important;
+    border-color: #2f6a81 !important;
+}
